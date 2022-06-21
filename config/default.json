@@ -1,0 +1,3 @@
+{
+  "mongoURI": "mongodb+srv://root:<password>@cluster0.dpc1g.mongodb.net/test"
+}
