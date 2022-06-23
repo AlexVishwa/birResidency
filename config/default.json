@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://root:<password>@cluster0.dpc1g.mongodb.net/test"
+  "mongoURI": "mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass&ssl=false"
 }
+//mongodb+srv://root:6c7ofhHHehLUhOyR@cluster0.dpc1g.mongodb.net/test Atlas
