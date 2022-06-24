@@ -1,13 +1,13 @@
 const express = require('express');
-const app = express();
-const PORT = 3000 || process.env.port;
-const connection= require('./config/default');
 const path = require('path');
+const app = express();
+const PORT = 5000 || process.env.port;
+const connection= require('./config/db');
+
 connection();
 
 app.use(express.json());
-
-app.use('/api/createItem',require('./routes/api/apilist'));
+app.use('/',require('./routes/api/apis'));
 // Serve static assets in production
 if (process.env.NODE_ENV === 'production') {
   // Set static folder
